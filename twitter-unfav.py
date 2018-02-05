@@ -91,7 +91,7 @@ def main():
                 print "Unfav %i\n" % fav.id
 
             # unfav tweet
-            api.DestroyFavorite(id=fav.id)
+            api.DestroyFavorite(status_id=fav.id)
 
 
 if __name__ == '__main__':
